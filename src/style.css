@@ -1,0 +1,168 @@
+*{
+    color: #6f6f6f;
+    font-family: "Open Sans";
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: unset;
+}
+#wrapper{
+    width: 100%;
+}
+header{
+    background-color: #f5f5f5;
+    height: 920px;
+}
+#header-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    width: 1138px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#smart{
+    float: left;
+    font-size: 37.77px;
+    display: flex;
+    text-align: center;
+    border: 3px solid #6f6f6f;
+    height: 49px;
+    width: 143px;
+}
+#menu{
+    float: right;
+    background: url(img/menu.gif);
+    width: 34px;
+    height: 20px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+}
+.orange{
+    color: #fa9a87;
+}
+#header-text{
+    text-align: center;
+}
+.header-text{
+    font-size: 16px;
+    margin: unset;
+}
+#send-message{
+    padding-top: 25px;
+    margin-top: 90px;
+    background-color: white;
+    width: 372px;
+    height: 363px;
+}
+#send-message-form{
+    width: 372px;
+    height: 363px;
+    display: block;
+    text-align: center;
+}
+.inputs{
+    border: none;
+    width: 294px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #c7c7c7 1px solid;
+}
+#submit{
+    font-size: 15px;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-size: 100%;
+    background: url(img/send.gif);
+    width: 238px;
+    height: 55px;
+}
+#top-label{
+    margin-top: 25px;
+}
+#submit{
+    margin-top: 20px;
+}
+textarea{
+    resize: none;
+}
+menu{
+    padding: unset;
+}
+#working-process{
+    width: 1138px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#process-wrapper{
+    margin-bottom: 150px;
+    display: flex;
+}
+.process{
+    margin-right: 15px;
+    margin-left: 15px;;
+    text-align: center;
+    height: 263px;
+    width: 262px;
+}
+.process-icon{
+    margin-top: 50px;
+}
+.process-heading{
+    color: white;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+.process-p{
+    font-size: 15px;
+    color: white;
+    margin: 2.5px 2.5px;
+}
+
+.process-know-more{
+    display: -webkit-inline-box;
+    display: flex;
+    margin-top: 28px;
+    border-radius: 27.5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 228px;
+    height: 55px;
+    box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.29);
+
+}
+.plus{
+    width: 25px;
+    margin-left: auto;
+    margin-top: 14px;
+    height: 25px;
+}
+.know-more{
+    margin-left: 15px;
+    margin-right: auto;
+}
+#first{
+ background-color: #4eb2f7;
+}
+#second{
+    background-color:#c049f8 ;
+}
+#third{
+    background-color:#817eff ;
+}
+#fourth{
+    background-color:#f74770 ;
+}
+#featured-works{
+    
+}
