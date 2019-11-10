@@ -1,4 +1,8 @@
+html{
+    width: 100%; height: 100%;
+}
 *{
+    font-size: 1.3vw;
     color: #6f6f6f;
     font-family: "Open Sans";
 }
@@ -6,69 +10,72 @@ a{
     text-decoration: none;
 }
 body{
+    width: 100%; height: 100%;
     margin: unset;
 }
 #wrapper{
+    min-width: 100%; min-height: 100%; position: relative;
     width: 100%;
 }
 header{
     background-color: #f5f5f5;
-    height: 920px;
 }
 #header-content{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 80px;
-    width: 1138px;
+    padding-top: 5%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-right: 3%;
+    padding-bottom: 3%;
 }
 #smart{
+    margin-left: 3%;
     float: left;
     font-size: 37.77px;
     display: flex;
     text-align: center;
-    border: 3px solid #6f6f6f;
-    height: 49px;
-    width: 143px;
+    border: 0.2vw solid #6f6f6f;
+    width: 10%;
 }
 #menu{
     float: right;
-    background: url(img/menu.gif);
-    width: 34px;
-    height: 20px;
+    width: 2.4%;
+    margin-right: 3%;
 }
 h1{
-    font-size: 50px;
-    margin-top: 200px;
+    font-size: 3vw;
+    margin-top: 10%;
     text-align: center;
 }
+p{
+    font-size: 1.2vw;
+}
 .orange{
+    font-size: inherit;
     color: #fa9a87;
 }
 #header-text{
     text-align: center;
 }
 .header-text{
-    font-size: 16px;
     margin: unset;
 }
 #send-message{
-    padding-top: 25px;
-    margin-top: 90px;
+    margin-left: 3%;
+    padding-top: 3%;
+    margin-top: 6%;
     background-color: white;
-    width: 372px;
-    height: 363px;
+    width: 40%;
+    
 }
 #send-message-form{
-    width: 372px;
-    height: 363px;
+    width: 100%;
     display: block;
     text-align: center;
 }
 .inputs{
     border: none;
-    width: 294px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     border-bottom: #c7c7c7 1px solid;
@@ -78,16 +85,12 @@ h1{
     border:none;
     background-image:none;
     background-color:transparent;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
-    background-size: 100%;
-    background: url(img/send.gif);
-    width: 238px;
-    height: 55px;
+    width: 100%;
+    height: auto;
 }
 #top-label{
-    margin-top: 25px;
+    font-size: 1.3vw;
 }
 #submit{
     margin-top: 20px;
@@ -99,56 +102,56 @@ menu{
     padding: unset;
 }
 #working-process{
-    width: 1138px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 #process-wrapper{
-    margin-bottom: 150px;
+    margin-bottom: 12%;
     display: flex;
 }
 .process{
-    margin-right: 15px;
-    margin-left: 15px;;
+    margin-right: 1%;
+    margin-left: 1%;;
     text-align: center;
-    height: 263px;
-    width: 262px;
+
+    width: 23%;
 }
 .process-icon{
-    margin-top: 50px;
+    margin-top: 20%;
+    width: 18%;
 }
 .process-heading{
     color: white;
-    font-size: 20px;
-    margin: 20px 20px;
+    font-size: 1.3vw;
 }
 .process-p{
-    font-size: 15px;
+    font-size: 1vw;
     color: white;
     margin: 2.5px 2.5px;
 }
 
 .process-know-more{
-    display: -webkit-inline-box;
     display: flex;
-    margin-top: 28px;
+    margin-top: 10%;
     border-radius: 27.5px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    width: 228px;
-    height: 55px;
+    width: 90%;
+    height: 20%;
+    margin-bottom: -15%;
     box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.29);
 
 }
 .plus{
-    width: 25px;
+    width: 10%;
     margin-left: auto;
-    margin-top: 14px;
-    height: 25px;
+    margin-top: 7%;
+    height: 45%;
 }
 .know-more{
-    margin-left: 15px;
+    margin-top: 6%;
+    margin-left: 5%;
     margin-right: auto;
 }
 #first{
@@ -164,5 +167,32 @@ menu{
     background-color:#f74770 ;
 }
 #featured-works{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+#featured-works-article{
+    padding-top: 0.1px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+article{
     
+}
+#featured-works-container{
+    width: 74%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.work{
+    float: left;
+    background-color: #ff5c36;
+    width: 30%;
+    margin: 7px;
+}
+#services-paragrapgh{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#services-container{
+    width: 100%;
 }
